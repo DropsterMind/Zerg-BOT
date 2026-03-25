@@ -1,44 +1,34 @@
 # Zerg App BOT
 
-> Automated play daily spin and multi-account management
+> Bot otomatis untuk menjalankan daily spin dan mengelola banyak akun
 
 [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-## 📋 Table of Contents
+## 🎯 Deskripsi
 
-- [Overview](#overview)
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [Proxy Recommendation](#proxy-recommendation)
+Zerg App BOT adalah tools otomatis yang digunakan untuk menjalankan fitur daily spin pada banyak akun secara bersamaan. Bot ini juga dilengkapi dengan dukungan proxy yang fleksibel untuk meningkatkan keamanan dan kestabilan penggunaan.
 
-## 🎯 Overview
+**🔗 Mulai di sini:** [Daftar Zerg App](https://welcome.zerg.app/referral/F9LWA40W3B)
 
-Zerg App BOT is an automated tool designed to play daily spin across multiple accounts. It provides seamless offers robust proxy support for enhanced security and reliability.
+> **Catatan:** Gunakan wallet Solana baru saat registrasi dan hubungkan akun sosial Anda.
 
-**🔗 Get Started:** [Register on Zerg App](https://welcome.zerg.app/referral/F9LWA40W3B)
+## ✨ Fitur
 
-> **Important:** Sign-Up with new sol wallet and connect your social account.
+- 🔄 **Manajemen Akun Otomatis** – Mengambil dan mengelola akun secara otomatis  
+- 🌐 **Dukungan Proxy** – Bisa dijalankan dengan atau tanpa proxy  
+- 🔀 **Rotasi Proxy Otomatis** – Mengganti proxy yang tidak valid  
+- 🎡 **Daily Spin Otomatis** – Menjalankan spin harian secara otomatis  
+- 👥 **Multi-Akun** – Mendukung banyak akun sekaligus  
 
-## ✨ Features
+## 📋 Persyaratan
 
-- 🔄 **Automated Account Management** - Retrieve account information automatically
-- 🌐 **Flexible Proxy Support** - Run with or without proxy configuration
-- 🔀 **Smart Proxy Rotation** - Automatic rotation of invalid proxies
-- 🎡 **Daily Spin** - Automated play daily spin
-- 👥 **Multi-Account Support** - Manage multiple accounts simultaneously
+- **Python:** 3.9 atau lebih baru  
+- **pip:** Disarankan versi terbaru  
 
-## 📋 Requirements
+## 🛠 Instalasi
 
-- **Python:** Version 3.9 or higher
-- **pip:** Latest version recommended
-
-## 🛠 Installation
-
-### 1. Clone the Repository
+### 1. Clone Repository
 
 ```bash
 git clone https://github.com/DropsterMind/Zerg-BOT.git
@@ -49,99 +39,95 @@ cd Zerg-BOT
 
 ```bash
 pip install -r requirements.txt
-# or for Python 3 specifically
+# atau
 pip3 install -r requirements.txt
 ```
 
-### 3. Library Version Management
+### 3. Manajemen Versi Library
 
-> ⚠️ **Important:** Ensure library versions match those specified in `requirements.txt`
+> ⚠️ Pastikan versi library sesuai dengan `requirements.txt`
 
-**Check installed library version:**
+Cek versi:
 ```bash
-pip show library_name
+pip show nama_library
 ```
 
-**Uninstall conflicting library:**
+Hapus library:
 ```bash
-pip uninstall library_name
+pip uninstall nama_library
 ```
 
-**Install specific library version:**
+Install versi tertentu:
 ```bash
-pip install library_name==version
+pip install nama_library==versi
 ```
 
-## ⚙️ Configuration
+## ⚙️ Konfigurasi
 
-### Account Setup
+### Setup Akun
 
-Create or edit `accounts.txt` in the project directory:
-
-```
-your_solana_private_key_1
-your_solana_private_key_2
-your_solana_private_key_3
-```
-
-### Proxy Configuration (Optional)
-
-Create or edit `proxy.txt` in the project directory:
+Edit atau buat file `accounts.txt`:
 
 ```
-# Simple format (HTTP protocol by default)
+private_key_solana_1
+private_key_solana_2
+private_key_solana_3
+```
+
+### Proxy (Opsional)
+
+Edit atau buat file `proxy.txt`:
+
+```
+# Format default (HTTP)
 192.168.1.1:8080
 
-# With protocol specification
+# Dengan protokol
 http://192.168.1.1:8080
 https://192.168.1.1:8080
 
-# With authentication
+# Dengan autentikasi
 http://username:password@192.168.1.1:8080
 ```
 
-## 🚀 Usage
-
-Run the bot using one of the following commands:
+## 🚀 Menjalankan Bot
 
 ```bash
 python bot.py
-# or for Python 3 specifically
+# atau
 python3 bot.py
 ```
 
-### Runtime Options
+### Opsi Saat Menjalankan
 
-When starting the bot, you'll be prompted to choose:
+- **Mode Proxy:**
+  - `1` → Gunakan proxy  
+  - `2` → Tanpa proxy  
 
-1. **Proxy Mode Selection:**
-   - Option `1`: Run with proxy
-   - Option `2`: Run without proxy
+- **Rotasi Proxy:**
+  - `y` → Aktif  
+  - `n` → Nonaktif  
 
-2. **Auto-Rotation:** 
-   - `y`: Enable automatic invalid proxy rotation
-   - `n`: Disable auto-rotation
+## 🤝 Kontribusi
 
-## 🤝 Contributing
+Kontribusi sangat terbuka:
 
-We welcome contributions from the community! Here's how you can help:
+- ⭐ Beri star pada repo ini  
+- 👥 Follow untuk update  
+- 🐛 Laporkan bug di Issues  
+- 💡 Ajukan fitur baru  
+- 🔧 Kirim pull request  
 
-1. ⭐ **Star this repository** if you find it useful
-2. 👥 **Follow** for updates on new features
-3. 🐛 **Report issues** via GitHub Issues
-4. 💡 **Suggest improvements** or new features
-5. 🔧 **Submit pull requests** for bug fixes or enhancements
+## 📞 Kontak
 
-## 📞 Contact & Support
-
-- **Developer:** DropsterMind
+- **Developer:** DropsterMind  
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by [DropsterMind](https://github.com/DropsterMind)**
+**Dibuat dengan ❤️ oleh DropsterMind**
 
-*Thank you for using Zerg App BOT! Don't forget to ⭐ star this repository.*
+*Terima kasih sudah menggunakan Zerg App BOT! Jangan lupa ⭐ repository ini.*
 
 </div>
